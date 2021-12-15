@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", function blackFridayCountdown() {
 		return n > 9 ? `${n}` : `0${n}`;
 	}
 
-	var endDate = new Date(2021, 11, 15, 00, 00, 00, 0);
+	var endDate = new Date(2021, 11, 16, 00, 00, 00, 0);
 
 	getTimeRemaining();
 	setInterval(function () {
